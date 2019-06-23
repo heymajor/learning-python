@@ -1,4 +1,4 @@
-import sys # Text says to type "from sys import argv" but that apparently  doesn't work with 3.7.3
+import sys # Text says to type "from sys import argv" but that apparently doesn't work with 3.7.3
 
 script, filename = sys.argv
 
