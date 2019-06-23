@@ -10,4 +10,4 @@ alien_color = "green"
 if alien_color == "green":
 	return "You just earned 5 points"
 else:
-	return ""   test
+	return ""
