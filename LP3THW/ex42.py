@@ -27,11 +27,11 @@ class Person(object):
 		self.pet = None
 
 ## Employee is-a Person
-class Employeee(Person):
+class Employee(Person):
 
 	def __init__(self, name, salary):
 		## Subclass employee has-a salary
-		super(Employee, self).__init__(name) # super() is a way to define subclass / https://www.pythonforbeginners.com/super/working-python-super-function
+		super(Employee, self).__init__(name) # super() is a way to define properties of subclass / https://realpython.com/python-super/
 		## Employee has-a salary
 		self.salary = salary
 
